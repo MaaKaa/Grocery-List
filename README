@@ -1,0 +1,14 @@
+Simple console application, allowing user to create a grocery list.
+
+How it works?
+    • The app shows the user menu.
+    • A user can: display instructions, print the list of saved grocery items, add an item to the list, modify an item in the list,
+    remove an item from the list, search for an item in the list.
+
+The app consists of two classes:
+    • GroceryList class, that implements all methods, like: addGroceryItem, modifyGroceryItem, removeGroceryItem, or findGroceryItem.
+    • Main class, that implements the user menu.
+
+Used tools/frameworks:
+    • Java (e.g. Scanner(System.in)),
+    • IDE: IntelliJ

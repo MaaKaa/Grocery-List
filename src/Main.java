@@ -55,6 +55,7 @@ public class Main {
     public static void addItem() {
         System.out.println("Enter the name of the grocery item you want to add: ");
         groceryList.addGroceryItem(scanner.nextLine());
+        System.out.println("Item added.");
     }
 
     public static void modifItem() {
@@ -69,6 +70,7 @@ public class Main {
         System.out.print("Enter the name of the item you want to remove: ");
         String itemNo = scanner.nextLine();
         groceryList.removeGroceryItem(itemNo);
+        System.out.println("Item deleted.");
     }
 
     public static void searchForItem() {
